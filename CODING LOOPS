@@ -1,0 +1,18 @@
+1st program
+
+list1= [12,5,-4,-8,10,-19,28]
+for i in list1:
+    if i>=0:
+        print(i,end=",")
+
+
+
+
+2nd program
+
+list1= [12,5,-4,-8,10,-19,28]
+c=[]
+for i in list1:
+    if i>=0:
+        c.append(i)
+print(c)
