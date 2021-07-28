@@ -1,4 +1,4 @@
-CODING
+1.CODING
 
 radius=float(input("Enter the radius: "))
 pi = 3.14
@@ -12,3 +12,14 @@ OUTPUT
 
 Enter the radius: 5.5
 Area of the circle is: 94.985
+
+2.CODING
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
+
+OUTPUT
+
+Input the Filename: abc.py
+The extension of the file is : 'py'
